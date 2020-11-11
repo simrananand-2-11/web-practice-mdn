@@ -2,51 +2,104 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>My-Page-Title</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="style.css">
+		<title>Table-template</title>
+		<link href="minimal-table.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<header>
-			<h1>Header</h1>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Our-Team</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contects</a></li>
-			</ul>
-			<!--A search foem is another common non-linear way to navigate through website-->
-			<form>
-			<input type="search" name="q" placeholder="Search-Query">
-			<input type="submit" value="Go!">
-			</form>
-		</nav>
-		<!--Here is our page's main content-->
-			<main>
-				<!--It contains an article-->
-				<article>
-					<h2>Article-heading</h2>
-					<p>Gty hstd kduue kdiud ksdud osie wpwiq</p>
-					<h3>Subsection</h3>
-					<p>Tyu ksue ksiw alwoe pdmxbcv dyea</p>
-					<h3>Another-subsection</h3>
-					<p>Qwe yiy opj nhul kmfs trecv xzmn jikol</p>
-				</article>
-				<!--The aside content can also be nested within the main content-->
-				<aside>
-					<h2>Related</h2>
-					<ul>
-						<li><a href="#">Oh I am on beside</a></li>
-						<li><a href="#">Oh I like to beside the sea</a></li>
-						<li><a href="#">It never stops raining</a></li>
-						<li><a href="#">Oh well...</a></li>
-					</ul>
-				</aside>
-			</main>
-			<footer>
-				<p>@Copyright 2090 by nobody. All rughts reversed.</p>
-			</footer>
+		<h1>Table-template</h1>
+		<!--<table>-->
+	<!--		<tr>
+				<td>&nbsp;</td>
+					<th scope="col">Knocky</th>
+					<th scope="col">Flor</th>
+					<th scope="col">Ella</th>
+					<th scope="col">Juan</th>
+			</tr>
+			<tr>
+				<th scope="row">Breed</th>
+				<td>Jack Russell</td>
+    <td>Poodle</td>
+    <td>Streetdog</td>
+    <td>Cocker Spaniel</td>
+  </tr>
+  <tr>
+    <th scope="row">Age</th>
+    <td>16</td>
+    <td>9</td>
+    <td>10</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <th scope="row">Owner</th>
+    <td>Mother-in-law</td>
+    <td>Me</td>
+    <td>Me</td>
+    <td>Sister-in-law</td>
+  </tr>
+  <tr>
+    <th scope="row">Eating Habits</th>
+    <td>Eats everyone's leftovers</td>
+    <td>Nibbles at food</td>
+    <td>Hearty eater</td>
+    <td>Will eat till he explodes</td>
+  </tr>-->
+			<!--<tr>
+        <th colspan="2">Animals</th>
+      </tr>
+      <tr>
+        <th colspan="2">Hippopotamus</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Horse</th>
+        <td>Mare</td>
+      </tr>
+      <tr>
+        <td>Stallion</td>
+      </tr>
+      <tr>
+        <th colspan="2">Crocodile</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Chicken</th>
+        <td>Hen</td>
+      </tr>
+      <tr>
+        <td>Rooster</td>
+      </tr>
+		</table>-->
+		
+		<!--<table>
+  <tr>
+    <th>Data 1</th>
+    <th style="background-color: yellow">Data 2</th>
+  </tr>
+  <tr>
+    <td>Calcutta</td>
+    <td style="background-color: yellow">Orange</td>
+  </tr>
+  <tr>
+    <td>Robots</td>
+    <td style="background-color: yellow">Jazz</td>
+  </tr>
+</table>-->
+
+	<table>
+		<colgroup>
+			<col>
+			<col style="background-color:yellow" span="2">
+		</colgroup>
+		<tr>
+			<th>Data1</th>
+			<th>Data2</th>
+		</tr>
+		<tr>
+			<td>Calcutta</td>
+			<td>Orange</td>
+		</tr>
+		<tr>
+			<td>Robots</td>
+			<td>Jazz</td>
+		</tr>
+	</table>
 	</body>
 </html>
